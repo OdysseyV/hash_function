@@ -8,6 +8,9 @@ Assignment:
 
 Part 1 - Using any programming language (Preferably Java or Python), develop your own hash function. Given an input string x of any length, your hash function must generate a random output bit vector y of length 32 bits. You should only use logical operators (&, |, >>, <<) and also (Rotate right/left) to generate the output (digest). You can take ideas from how existing Hash functions like SHA-2 are designed.
 
+Part 2 - Then, write a method that finds collisions in your hash function using brute-force attack. This method will generate many random input strings and stops when two strings have the same hash. Analyze your hash function in terms of robustness using the concept of birthday attack.
+
+*******************************************************
 Description of the program
 
 Part 1 includes the hash function. The hash function 
