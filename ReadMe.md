@@ -1,4 +1,3 @@
-/******************************************************
 *  Name      : Odyssey Villagomez & Megha Sapra
 *  Class     :  CSCCI 5743
 *  Date  :  13th Oct 2022
@@ -6,7 +5,7 @@
 
 *******************************************************
 Description of the program
-Jupyter notebook 
+
 Part 1 includes the hash function. The hash function 
 takes in a string x. X is encoded into bytes and 
 those bytes are divided into blocks, which are further
