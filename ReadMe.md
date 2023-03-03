@@ -48,9 +48,9 @@ Source files
 
 Analysis
 
-The hash function is modeled after SHA-256 where the input string s is divided into blocks (size 8 bits) and then those blocks are further divided into sub blocks (size 2 bits). The sub block performs binary operations on the word, combining it with inialization values. The result of the sub blocks are concatenated and only the first 32 bits of the value are kept, to output a digest of size 32 bits.
+The hash function is modeled after SHA-256 where the input string s is divided into blocks (size 8 bits) and then those blocks are further divided into sub blocks (size 2 bits). The sub block performs binary operations on the word, combining it with initialization values. The result of the sub blocks are concatenated and only the first 32 bits of the value are kept, to output a digest of size 32 bits.
 
-For the hash function to be secure it needs to be resitant to (2^16) brute force attacks, defined by the birthday bound of 2^(n/32) where n is the size of the hash, 32.
+For the hash function to be secure it needs to be resistant to (2^16) brute force attacks, defined by the birthday bound of 2^(n/32) where n is the size of the hash, 32.
 
 The hash funciton was evaluated by attempting a brute force attack 5 times. The amount of steps to break the attack are averaged and result in average steps of ~15,000, ~7000, and 22000. This hash function is not secure, based on the birthday attack because it takes less than 2^16 steps to find a collision
 
