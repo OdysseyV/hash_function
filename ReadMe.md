@@ -4,6 +4,10 @@
 *  Assignment 2 : Hash Function
 
 *******************************************************
+Assignment: 
+
+Part 1 - Using any programming language (Preferably Java or Python), develop your own hash function. Given an input string x of any length, your hash function must generate a random output bit vector y of length 32 bits. You should only use logical operators (&, |, >>, <<) and also (Rotate right/left) to generate the output (digest). You can take ideas from how existing Hash functions like SHA-2 are designed.
+
 Description of the program
 
 Part 1 includes the hash function. The hash function 
