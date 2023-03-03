@@ -1,5 +1,5 @@
 *  Name      : Odyssey Villagomez & Megha Sapra
-*  Class     :  CSCCI 5743
+*  Class     :  CSCI 5743
 *  Date  :  13th Oct 2022
 *  Assignment 2 : Hash Function
 
